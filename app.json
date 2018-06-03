@@ -17,13 +17,15 @@
     "FACEBOOK_APP_SECRET": {
       "required": true
     },
-    "FACEBOOK_USER_ID": {
-      "required": false
+    "HEROKU_APP_NAME": {
+      "description": "Must be identical to app name.",
+      "required": true
     },
     "HEROKU_API_KEY": {
       "required": true
     },
     "VERIFY_TOKEN": {
+      "generator": "secret",
       "required": true
     }
   },
