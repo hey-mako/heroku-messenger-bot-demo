@@ -11,9 +11,6 @@
     }
   ],
   "env": {
-    "ACCESS_TOKEN": {
-      "required": true
-    },
     "FACEBOOK_APP_ID": {
       "required": true
     },
@@ -24,9 +21,6 @@
       "required": false
     },
     "HEROKU_API_KEY": {
-      "required": true
-    },
-    "HEROKU_APP_NAME": {
       "required": true
     },
     "VERIFY_TOKEN": {
