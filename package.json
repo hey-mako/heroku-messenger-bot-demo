@@ -1,0 +1,25 @@
+{
+  "name": "heroku-messenger-bot-demo",
+  "version": "1.0.0",
+  "description": "A Facebook Messenger Bot demo for Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mako-ai/heroku-messenger-bot-demo.git"
+  },
+  "author": "Mako AI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mako-ai/heroku-messenger-bot-demo/issues"
+  },
+  "homepage": "https://github.com/mako-ai/heroku-messenger-bot-demo#readme",
+  "dependencies": {
+    "botkit": "^0.6.14"
+  },
+  "devDependencies": {
+    "xo": "^0.21.1"
+  }
+}

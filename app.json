@@ -1,0 +1,42 @@
+{
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/mako-ai/heroku-buildpack-messenger-bot"
+    }
+  ],
+  "env": {
+    "ACCESS_TOKEN": {
+      "required": true
+    },
+    "FACEBOOK_APP_ID": {
+      "required": true
+    },
+    "FACEBOOK_APP_SECRET": {
+      "required": true
+    },
+    "FACEBOOK_USER_ID": {
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "VERIFY_TOKEN": {
+      "required": true
+    }
+  },
+  "name": "mako",
+  "repository": "https://github.com/mako-ai/heroku-messenger-bot-demo",
+  "scripts": {
+    "postdeploy": "bin/postdeploy.sh",
+    "pr-predestroy": "bin/pr-predestroy.sh"
+  }
+}
