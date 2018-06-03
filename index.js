@@ -8,9 +8,12 @@ const controller = Botkit.facebookbot({
 
 const bot = controller.spawn({});
 
-controller.setupWebserver(process.env.PORT, (err, webserver) => {
-	controller.createWebhookEndpoints(webserver, bot, () => {
-		console.log('Bot is up');
+controller.setupWebserver(process.env.PORT, err => {
+	if (err !== null) {
+		throw err;
+	}
+	controller.createWebhookEndpoints(controller.webserver, bot, () => {
+		console.log('Listening on port: ' + process.env.PORT);
 	});
 });
 
