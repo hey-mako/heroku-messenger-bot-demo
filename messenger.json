@@ -1,6 +1,6 @@
 
 {
   "graph_page_about": "Testing the bot workflow",
-  "graph_page_name": "Test Page For The Boys",
+  "graph_page_name": "Test Page For Heroku",
   "graph_subscription_callback_url": "https://${HEROKU_APP_NAME}.herokuapp.com/facebook/receive"
 }
