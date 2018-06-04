@@ -12,7 +12,7 @@
   ],
   "env": {
     "ACCESS_TOKEN": {
-      "description": "Page access token used by the bot.",
+      "description": "The page access token used by the bot.",
       "required": true
     },
     "FACEBOOK_APP_ID": {
@@ -21,11 +21,11 @@
     "FACEBOOK_APP_SECRET": {
       "required": true
     },
-    "HEROKU_APP_NAME": {
-      "description": "Must be identical to app name.",
+    "HEROKU_API_KEY": {
       "required": true
     },
-    "HEROKU_API_KEY": {
+    "HEROKU_APP_NAME": {
+      "description": "The value of this variable MUST be identical to the value of your application name.",
       "required": true
     },
     "VERIFY_TOKEN": {
