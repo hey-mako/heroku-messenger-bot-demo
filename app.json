@@ -33,9 +33,5 @@
     }
   },
   "name": "mako",
-  "repository": "https://github.com/mako-ai/heroku-messenger-bot-demo",
-  "scripts": {
-    "postdeploy": "bin/postdeploy.sh",
-    "pr-predestroy": "bin/pr-predestroy.sh"
-  }
+  "repository": "https://github.com/mako-ai/heroku-messenger-bot-demo"
 }
