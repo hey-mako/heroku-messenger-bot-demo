@@ -21,10 +21,6 @@
     "FACEBOOK_APP_SECRET": {
       "required": true
     },
-    "HEROKU_APP_NAME": {
-      "description": "Must be identical to app name.",
-      "required": true
-    },
     "HEROKU_API_KEY": {
       "required": true
     },
