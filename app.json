@@ -11,6 +11,10 @@
     }
   ],
   "env": {
+    "ACCESS_TOKEN": {
+      "description": "Page access token used by the bot.",
+      "required": true
+    },
     "FACEBOOK_APP_ID": {
       "required": true
     },
