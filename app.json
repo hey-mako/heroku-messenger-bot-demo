@@ -29,8 +29,7 @@
       "required": true
     },
     "VERIFY_TOKEN": {
-      "generator": "secret",
-      "required": true
+      "generator": "secret"
     }
   },
   "name": "mako",
