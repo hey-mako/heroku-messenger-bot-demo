@@ -12,7 +12,6 @@
   ],
   "env": {
     "ACCESS_TOKEN": {
-      "description": "The page access token used by the bot.",
       "required": true
     },
     "FACEBOOK_APP_ID": {
@@ -25,11 +24,12 @@
       "required": true
     },
     "HEROKU_APP_NAME": {
-      "description": "The value of this variable MUST be identical to the value of your application name.",
+      "description": "The value of this variable MUST be the same as the value of your application name.",
       "required": true
     },
     "VERIFY_TOKEN": {
-      "generator": "secret"
+      "generator": "secret",
+      "required": true
     }
   },
   "name": "mako",
