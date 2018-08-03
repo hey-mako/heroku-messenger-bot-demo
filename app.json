@@ -25,7 +25,7 @@
     },
     "HEROKU_APP_NAME": {
       "description": "The value of this variable MUST be the same as the value of your application name.",
-      "required": true
+      "required": false
     },
     "VERIFY_TOKEN": {
       "generator": "secret",
